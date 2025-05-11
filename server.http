@@ -1,0 +1,5 @@
+GET http://localhost:3000/userAppliedLoans/
+
+GET http://localhost:3000/adminRecentLoans/
+
+GET http://localhost:3000/verifierAppliedLoans/
