@@ -4,11 +4,12 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "postinstall": "npm rebuild sqlite3"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Uday032003/deploying-backend.git"
+    "url": "git+https://github.com/Uday032003/deploying-backend.git",
   },
   "keywords": [],
   "author": "",
@@ -18,9 +19,6 @@
   },
   "homepage": "https://github.com/Uday032003/deploying-backend#readme",
   "description": "",
-  "engines": {
-    "node": "18.17.0"
-  },
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
