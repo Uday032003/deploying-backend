@@ -1,17 +1,28 @@
 {
   "name": "project-backend",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Uday032003/deploying-backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Uday032003/deploying-backend/issues"
+  },
+  "homepage": "https://github.com/Uday032003/deploying-backend#readme",
   "description": "",
+  "engines": {
+    "node": "18.17.0"
+  },
   "dependencies": {
-    "bcrypt": "^5.1.1",
-    "better-sqlite3": "^11.10.0",
+    "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
